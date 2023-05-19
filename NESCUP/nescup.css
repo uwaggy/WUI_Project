@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Tilt Neon', cursive;
+	background-image:linear-gradient(45deg, #493acd, #0391c0) ;
+	width: 100vw;
+}
+.first{
+	display: flex;
+	background:linear-gradient(to right,rgb(66, 105, 158),rgb(66, 89, 123),#61957b);
+	align-items: center;
+	justify-content: space-between;
+	width:100%;
+	height: 80px;
+	gap: 1.5rem;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	
+}
+.first img{
+	left:0;
+}
+.title {
+ margin-right: 10px;
+ 	
+}
+ .second{
+	height: 40vh;
+}
+.third{
+	position: relative;
+	top: 80px;
+ height: 40vh;
+ width: 100%;
+} 
+ .first img{
+   width: 6rem;
+} 
+
+.second{
+	height:38em;
+	position: relative;
+	top: 100px;
+    
+}
+.title a{
+	text-decoration: none;
+	width: fit-content;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+	background-color: rgb(36, 32, 62);
+	color: white;
+}
+.title>a:hover{
+	background: #000;
+}
+.second button{
+	cursor: pointer;
+
+}
+.third{
+	background-color: rgb(10, 9, 9);
+	height:3.5em ;
+	color: aliceblue;
+}
+.text{
+	color:rgb(8, 9, 9);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 80ch;
+	text-align:justify;
+	font-size: medium;
+	justify-content: center;
+	padding:1.5em 4.5em;
+	font-weight: bold;
+	margin:1.5em;
+	
+
+}
+.text h1{
+	font-size: 15vh;
+}
+.specific{
+	font-family:serif;
+	font-weight:bolder;
+	font-size: smaller;
+}
+.text button{
+	background-image:linear-gradient(#217,#000);
+	border: 0.7 solid  rgb(151, 224, 41) ;
+	border-radius: 0.6vh;
+   padding: 0.5vh;
+   margin: 0.7vh;
+   color: white;
+   width:16vh;
+}
+footer{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-size: 1em;
+}
+footer img{
+	width:1.5em;
+	
+}
+.middle{
+	height: 90vh;
+	padding: 1.5em 1.5em;
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	margin-left: 1rem; 
+	margin-bottom: 2vh; 
+}
+ .middle img{
+	width: 29rem;
+	height: 20rem;
+	right: 0;
+} 
+.us{
+	position: relative;
+	top: 100px;
+	text-decoration: underline;
+	margin:3vh 25vh ;
+} 
+.lorems{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 2.5vh;
+}
+
+.last img{
+	border-radius: 50%;
+	width:6vh;
+	margin-left: 4vh;
+	cursor: pointer;
+	
+}
+.last img:hover{
+	opacity: 0.6;
+}
+.last{
+	margin-bottom: 2.5em;
+	
+}
+.last button{
+	background-image:linear-gradient(#89cf11,#000);
+    color: aliceblue;
+}
+.read{
+	width: 20vh;
+	height: 5vh;
+	border-radius: 0.9vh;
+	margin-left: 0px !important;
+	border: none;
+	background-image:linear-gradient(#217,#000);
+    color: white;
+	cursor: pointer;
+
+}
+.lorems p:nth-of-type(1){
+	margin-left: 0px !important;
+}
+.cola p1,p2{
+	display: block;
+}
+.cola img{
+	border-radius: 50%;
+	width: 4.5vh;
+	margin: 0.5vh;
+	
+}
+.col1{
+	width:4.5vh;
+	width: 80vh;
+	height:50vh;
+	margin: 10.5vh 15.5vh;
+}
+.package{
+	display: flex;
+	flex-direction: row;
+	/* margin: 4vh; */
+	margin-bottom: 20vh;
+}
+.col2{
+	width:4.5vh;
+	/* background-color:rgb(137, 5, 20); */
+	width: 75vh;
+	height:60vh;
+	margin: 10.5vh 0 ;
+	/* margin-right: 8.5vh; */
+/* 	
+	 display: block;  */
+}
+.col2 h{
+   font-size: medium;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin:2.5vh 25.5vh;
+   font-weight: bolder;
+} 
+/* .col2 input{
+	background-image:radial-gradient(#253148,#221818);
+	border:1vh solid radial-gradient(#253148,#221818);
+	margin: ;
+} */
+.col2 button{
+	background-image:linear-gradient(#217,#000);
+	color: aliceblue;
+	
+}
+.box{
+	padding:2.5vh;
+}
+.box button{
+	width: 60vh;
+	height:5.5vh;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 1.5vh;
+	cursor: pointer;
+	border: none;
+}
+.box input,
+.box textarea{
+	width:100px;
+	padding: 5px 0;
+	font-size: large;
+	margin:6px 0; 
+	border: none;
+	/* border-bottom: 2px solid #333; */
+
+
+}
+.aggy h{
+	font-weight: bolder;
+	font-size: larger;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:40vh;
+	margin-left:40vh;
+}
+.third footer{
+	position: relative;
+}
+.aggy  p {
+text-align:center;
+padding: 5.5vh;
+font-style: italic;
+}
+.aggy{
+	margin:10vh;
+}
+.up{
+	position: relative;
+	width:100vh;
+} 
+.form{
+	position: relative;
+	top: 80px;
+	width:80vh;
+	
+	height:90vh;
+	border-radius: 0.9em;
+	margin:11vh 50vh;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form input{
+	width: 50vh;
+	height:6.5vh;
+	border-radius: 1.5vh;
+	
+}
+form img{
+	width: 6vh;
+	border-radius: 60%;
+	cursor: pointer;
+}
+.form button{
+	width: 28vh;
+	height:7vh;
+	font-weight: bolder;
+	border-radius:1.5vh ;
+	cursor: pointer;
+}
+.form p{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.form input,button,p,img{
+	margin:0.5em;
+}
+.register{
+	font-size: large;
+    font-weight: bolder;
+	margin-left: 25vh;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.button{
+	margin-left: 18vh;
+	background-image:linear-gradient(rgb(34, 10, 155),#141313); 
+	color: white;
+}
+.drink{
+	/* width: 100%; */
+
+}
+.blarirwa{
+	width: 55%;
+	height:33vh;
+	background-color:white;
+	margin: 20vh;
+	border-radius:1.5em ;
+	display: flex;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 2.5vh;
+	font-weight: bold;
+	/* margin-right: 45vh; */
+	
+}
+.blarirwa img{
+	width:25vh;
+	height: 25vh;
+	border-radius: 50%;
+}
+.skol img{
+	border-radius: 50%;
+	width: 35vh;
+	height:25vh;
+}
+.skol{
+	width: 55%;
+	height:30vh;
+    background-color:white; 
+	margin: 20vh;
+	border-radius:1.5em;	
+    display: flex;
+	font-weight: bold;
+
+}
+.drink li{
+	text-align: center;
+   margin-left:3vh;
+   margin-top: 2vh;
+}
+.inyange{
+	width: 57%;
+	height:30vh;
+	background-color:white;
+	margin: 20vh;
+	border-radius:1.5em;
+	display: flex;
+	font-weight: bold;
+}
+.inyange img{
+	border-radius: 50%;
+	height:25vh;
+	width:40vh;
+
+}
+.nguvu{
+	width: 55%;
+	height:30vh;
+	background-color:white;
+	margin: 20vh;
+	border-radius:1.5em;
+	display: flex;
+	font-weight: bold;
+}
+.nguvu img{
+	width: 20vh;
+	height:25vh;
+	margin: 2.5vh;
+	border-radius: 5vh;
+}
+.nyira{
+	width: 75%;
+	height:30vh;
+	background-color:white;
+	margin: 20vh;
+	border-radius:1.5em;
+	display: flex;	
+	font-weight: bold;
+}
+.nyira img{
+	width:70vh;
+	border-radius: 3vh;
+}
+.jibu{
+	width: 55%;
+	height:30vh;
+	background-color:white;
+	margin: 20vh;
+	border-radius:1.5em;
+	display: flex;
+	font-weight: bold;
+}
+.jibu img{
+	border-radius: 6vh;
+}
+.nyanza{
+	width: 55%;
+	height:30vh;
+	background-color:white; 
+	margin: 20vh;
+	border-radius:1.5em;	
+	display: flex;
+	font-weight: bold;
+}
+.nyanza img {
+	border-radius: 3vh;
+	width:30vh;
+}
+.mukamira{
+	width: 55%;
+	height:30vh;
+	background-color:white;
+	margin: 20vh;
+	border-radius:1.5em;
+	display: flex;
+	font-weight: bold;
+}
+.mukamira img{
+	border-radius: 4vh;
+	width:25vh;
+}
+.nyira li{
+	margin-right: 7vh;
+}
+.drink {
+	margin-left: 30vh;
+}
+/* .container .image1,.image2,.image3{ */
+	/* position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    background-image: url("C:\Users\Aggy\Documents\WORKSPACE\Ccamp\two.jpeg"); 
+    background-size: cover; */
+     /* width: 500px;
+	 height:400px;
+	 position: relative;
+	 display: inline-block;
+	 display: flex;
+	 flex-direction: row;
+	 background-repeat: no-repeat;
+
+
+	animation-name: image;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function:ease-in-out ;
+	animation-delay: 3s; */
+	/* animation-play-state: running;
+	animation-direction: forwards; */
+     
+/* }
+@keyframes image {
+	0%{
+		background-image: url(two.jpeg);
+		height:300px
+	}
+	/* 60%{
+     background-image: url(lorry1.jpeg);
+	} */
+	/* 60%{
+		background-image:url("one.jpeg");
+	}
+	
+} */ 
+    /* 0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  } 
+
+   @keyframes move-image2 {
+    0% {
+      transform: translateY(-50%) translateX(-100%);
+    }
+    50% {
+      transform: translateY(-50%) translateX(100%);
+    }
+    100% {
+      transform: translateY(-50%) translateX(-100%);
+    }
+  } */
+
+  .container img{
+	right: 0;
+  }
+
+  @media screen and (max-width:500px) {
+	.middle{
+		display: flex;
+		flex-direction: column;
+		background: red;
+		display: none;
+	}
+  }
+  @media screen and (max-width:838px) {
+	body{
+		width: 100vw;
+	}
+  }
